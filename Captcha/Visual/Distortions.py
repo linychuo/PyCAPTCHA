@@ -8,7 +8,7 @@ Distortion layers for visual CAPTCHAs
 #
 
 from Captcha.Visual import Layer
-import ImageDraw, Image
+from PIL import Image
 import random, math
 
 

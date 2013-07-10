@@ -8,7 +8,6 @@ Random collections of images
 #
 
 from Captcha import File
-import Image
 
 
 class ImageFactory(File.RandomFileFactory):

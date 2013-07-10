@@ -7,9 +7,9 @@ Text generation for visual CAPTCHAs.
 # Copyright (C) 2004 Micah Dowty <micah@navi.cx>
 #
 
-import random, os
+import random
 from Captcha import Visual, File
-import ImageFont, ImageDraw
+from PIL import ImageFont, ImageDraw
 
 
 class FontFactory(File.RandomFileFactory):
